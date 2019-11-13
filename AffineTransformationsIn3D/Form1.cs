@@ -169,7 +169,7 @@ namespace AffineTransformationsIn3D
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
-            double delta = 0.3;
+            double delta = 0.1;
             switch (keyData)
             {
                 case Keys.W: camera.Position *= Transformations.Translate(0.1 * camera.Forward); break;
