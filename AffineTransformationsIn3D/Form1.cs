@@ -28,10 +28,10 @@ namespace AffineTransformationsIn3D
         {
             InitializeComponent();
             CurrentDrawable = Models.Cube(0.5);
-            sceneView1.Camera = new Camera(new Vector(0, 0, 0), 0, 0, 
+            sceneView1.Camera = new Camera(new Vector(0, 0, 0), 0, 0,
                 Transformations.OrthogonalProjection());
             sceneView2.Camera = new Camera(new Vector(0, 0, 0), 0, 0,
-                Transformations.RotateY(-Math.PI / 2) 
+                Transformations.RotateY(-Math.PI / 2)
                 * Transformations.OrthogonalProjection());
             sceneView3.Camera = new Camera(new Vector(0, 0, 0), 0, 0,
                 Transformations.RotateX(Math.PI / 2)
@@ -110,12 +110,12 @@ namespace AffineTransformationsIn3D
         private void RotateAroundLine(object sender, EventArgs e)
         {
             Vector a = new Vector(
-                (double)numericUpDownPoint1X.Value, 
-                (double)numericUpDownPoint1Y.Value, 
+                (double)numericUpDownPoint1X.Value,
+                (double)numericUpDownPoint1Y.Value,
                 (double)numericUpDownPoint1Z.Value);
             Vector b = new Vector(
-                (double)numericUpDownPoint2X.Value, 
-                (double)numericUpDownPoint2Y.Value, 
+                (double)numericUpDownPoint2X.Value,
+                (double)numericUpDownPoint2Y.Value,
                 (double)numericUpDownPoint2Z.Value);
             var angle = DegreesToRadians((double)numericUpDownAngle.Value);
             CurrentDrawable.Apply(Transformations.RotateAroundLine(a, b, angle));
@@ -174,8 +174,10 @@ namespace AffineTransformationsIn3D
             {
                 case Keys.W: camera.Position *= Transformations.Translate(0.1 * camera.Forward); break;
                 case Keys.A: camera.Position *= Transformations.Translate(0.1 * camera.Left); break;
-                case Keys.S: camera.Position *= Transformations.Translate(0.1 * camera.Backward); break; 
+                case Keys.S: camera.Position *= Transformations.Translate(0.1 * camera.Backward); break;
                 case Keys.D: camera.Position *= Transformations.Translate(0.1 * camera.Right); break;
+                case Keys.X: camera.Position *= Transformations.Translate(0.1 * camera.Up); break;
+                case Keys.Z: camera.Position *= Transformations.Translate(0.1 * camera.Down); break;
                 case Keys.Left: camera.AngleY += delta; break;
                 case Keys.Right: camera.AngleY -= delta; break;
                 case Keys.Up: camera.AngleX += delta; break;

@@ -20,3 +20,14 @@ C:\Users\User\Desktop\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformat
 C:\Users\User\Desktop\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.exe
 C:\Users\User\Desktop\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.pdb
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.csprojAssemblyReference.cache
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.Form1.resources
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.FormChangeModel.resources
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.Properties.Resources.resources
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.csproj.GenerateResource.cache
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.csproj.CoreCompileInputs.cache
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.exe
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.pdb
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\bin\Debug\AffineTransformationsIn3D.exe.config
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\bin\Debug\AffineTransformationsIn3D.exe
+D:\university\CompGraph\lab8\AffineTransformationsIn3D\bin\Debug\AffineTransformationsIn3D.pdb
